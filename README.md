@@ -1,4 +1,5 @@
-# SolarAiAssistant
+# Solar Ai Assistant [Download PDF](https://docs.google.com/document/d/1tF9fU3TEfQFcGSUPdbvcE2GlJ275rlvd6UkS4MynBOQ/edit?usp=sharing)
+
 # AI Chatbot with OpenRouter API
 
 ## Project Description
