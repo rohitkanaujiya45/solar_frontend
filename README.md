@@ -23,7 +23,7 @@ This project is an AI-powered chatbot built with **Node.js (Express.js) backend*
 ### Backend Setup (Node.js)
 1. Clone the repository:
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/rohitkanaujiya45/solar_backend
    cd backend
    ```
 2. Install dependencies:
@@ -43,6 +43,7 @@ This project is an AI-powered chatbot built with **Node.js (Express.js) backend*
 ### Frontend Setup (Angular)
 1. Navigate to the Angular project folder:
    ```sh
+   git clone https://github.com/rohitkanaujiya45/solar_frontend
    cd Solar-Ai-Assistant
    ```
 2. Install dependencies:
