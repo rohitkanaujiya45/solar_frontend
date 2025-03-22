@@ -1,0 +1,18 @@
+  <div class="search-container" [ngClass]="{ 'dark-mode': isDarkMode, 'light-mode': !isDarkMode }">
+    <button class="theme-toggle" (click)="toggleTheme()">
+      <i class="fas" [ngClass]="isDarkMode ? 'fa-sun' : 'fa-moon'" [style.color]="isDarkMode ? 'orange' : 'black'"></i>
+    </button>
+    
+    <div class="response-container" *ngIf="responseMessage || isLoading">
+        <div class="loading-spinner" *ngIf="isLoading"></div>
+        <div class="response" *ngIf="!isLoading" [innerHTML]="responseMessage"></div>
+      </div>
+      
+    <div class="search-box">
+      <input type="text" placeholder="Ask anything..." [(ngModel)]="query" (keyup.enter)="search()" />
+      <button (click)="search()">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+  

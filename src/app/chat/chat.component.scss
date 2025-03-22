@@ -1,0 +1,117 @@
+.search-container {
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    transition: background 0.3s, color 0.3s;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dark-mode {
+    background: black;
+    color: white;
+}
+
+.light-mode {
+    background: white;
+    color: black;
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    width: 95%;
+    max-width: 600px;
+    background: #222;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.search-box input {
+    flex: 1;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    font-weight: 400;
+    padding: 8px;
+}
+
+.search-box button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-box button i {
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.search-box button:hover i {
+    color: red !important;
+}
+
+.response-container {
+
+    max-height: 378px;
+    overflow-y: auto;
+    margin-top: -54px;
+    width: 100%;
+    margin-left: 16px;
+    max-width: 615px;
+    padding: 10px;
+    background: #222;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.response {
+    color: white;
+    text-align: left;
+    font-weight: 500;
+    white-space: pre-line;
+    line-height: 1.5;
+}
+
+.loading-spinner {
+    width: 23px;
+    height: 23px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-top: 3px solid white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: auto;
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
