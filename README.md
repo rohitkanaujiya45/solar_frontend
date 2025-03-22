@@ -1,6 +1,7 @@
-# Solar Ai Assistant  ###[Download PDF](https://docs.google.com/document/d/1tF9fU3TEfQFcGSUPdbvcE2GlJ275rlvd6UkS4MynBOQ/edit?usp=sharing)
+# Solar Ai Assistant  
+###[Download PDF](https://docs.google.com/document/d/1tF9fU3TEfQFcGSUPdbvcE2GlJ275rlvd6UkS4MynBOQ/edit?usp=sharing)
 
-# AI Chatbot with OpenRouter API
+# AI Assistant with OpenRouter API
 
 ## Project Description
 This project is an AI-powered chatbot built with **Node.js (Express.js) backend** and **Angular frontend**. It integrates the OpenRouter API to generate AI responses based on user queries.
