@@ -26,7 +26,7 @@ export class ChatComponent {
   
     this.isLoading = true;
   
-    this.http.post<{ response: string }>('https://solar-backend-83fe.vercel.app/ask', { message: this.query }).subscribe(
+    this.http.post<{ response: string }>('https://solar-backend-eta.vercel.app/ask', { message: this.query }).subscribe(
       (response) => {
         this.responseMessage = `<strong>Q:</strong> ${this.query}<br><br><strong>A:</strong> ${this.formatResponse(response.response)}`;
         this.isLoading = false;
